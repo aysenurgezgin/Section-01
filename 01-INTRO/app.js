@@ -1,3 +1,3 @@
-document.getElementById("button-2").addEventListener("click",()=>{
+document.getElementById("button").addEventListener("click",()=>{
     alert("butona tıkladın!(Yöntem-3-external)")
 });

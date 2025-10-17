@@ -6,15 +6,16 @@
     <title>JavaScript</title>
 </head>
 <body>
- <!--<button onclick="alert('butona tıkladın(Yöntem-1inline)');//Yöntem-1(inline)">tıkla</button>-->
- <button id="button-1">tıkla</button>
+ <button id="button" onclick="alert('butona tıkladın(Yöntem-1inline)');//Yöntem-1(inline)">tıkla</button>
+ 
+ <!-- <button id="button-1">tıkla</button> -->
  <!--harici dosyaya ekliyeceğiz app.js-->
- <button id="button-2">tıkla</button>
+ <!-- <button id="button-2">tıkla-2</button> -->
 
 
 
   <script>
-    document.getElementById("button-1").addEventListener("click",()=>{
+    document.getElementById("button").addEventListener("click",()=>{
         alert("butona tıkladın!(yöntem-2-ınternal)")
     })
   </script>
