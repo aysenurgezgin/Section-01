@@ -1,1 +1,2 @@
-//syntax:söz dizimi kuralları (yazılan dilin)
+console.log("Merhaba");
+console.log("object");
