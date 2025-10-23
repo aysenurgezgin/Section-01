@@ -14,3 +14,19 @@
 // console.log(adSoyad);
 
 
+FirstName = "Ali";
+LastName = "Demir";
+iseBaslamaTarihi = "4.5.1999";
+ISE_GIRIS_TARIHI = "5.5.2000";
+
+isActive =false;
+hasContain = true;
+
+function getAllProducts() {
+
+}
+ 
+function crateUser() {
+    
+}
+

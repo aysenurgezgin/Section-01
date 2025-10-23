@@ -19,4 +19,31 @@
             Sözcükler birbirinden (_) ile ayrılır. upper, lower ve screaming versiyonları vardır. ör: Ad_Soyad, ad_soyad, dogum_tarihi, Dogum_Tarihi, AD_SOYAD, DOGUM_TARIHI
         * Diğer
 
+    * Java Script Name Conventions
+        * Değişkenler:
+            * Büyük küçük harf duyarlı.
+            * camelCase kullanılır,harfle başlanır.
+            * İçindeki değeri açıklayıcı nitelikte.
+            * Mantıksal(Boolean) değişkenler genellikle is ya da has ifadesiyle başlatılır.
+            * İngilizce kavramlar kullan
+        * Fonksiyon ve Sınıf Metotları:
+            * Büyük küçük harf duyarlı.
+            * camelCase kullanılır, harfle başlanır.
+            * Genelde get, make, apply gibi emir kipi ile başlamalı.
+        * Sabitler:
+            * Büyük küçük harf duyarlı.
+            * Screaming Snake Case kullanılır.
+            * Genelde en üstte olur.
+        * Sınıflar:
+            * Büyük küçük harf duyarlı.
+            * PascalCase kullanılır, harfle başlanır.
+            * Sınıfın işlevselliğini açıklayıcı nitelikte.
+        * Private:
+        * _ ile başlar.
+
+
+* Resmi Dökümantasyon: [ECMAScript Offical Documentation](https://tc39.es/ecma262)
+
+* MDN Javascript Tutorial: [MDN JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
     
