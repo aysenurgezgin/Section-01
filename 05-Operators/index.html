@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+   <script src="app.js">
+    //buraya JS kodu yazılmaz
+   </script>
+<body>
+ <button id="button" onclick="alert('butona tıkladın(Yöntem-1inline)');//Yöntem-1(inline)">tıkla</button>
+ 
+ <!-- <button id="button-1">tıkla</button> -->
+ <!--harici dosyaya ekliyeceğiz app.js-->
+ <!-- <button id="button-2">tıkla-2</button> -->
+
+
+
+  <script>
+    document.getElementById("button").addEventListener("click",()=>{
+        alert("butona tıkladın!(yöntem-2-ınternal)")
+    })
+  </script>
+
+
+</body>
+</html>
