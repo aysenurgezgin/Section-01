@@ -31,7 +31,7 @@ let num;
 let total=0;
 while(i<=3){
     num =Number(prompt("Lütfen sayı gir:"));
-    total= total +num;
+    // total= total +num;
     total +=num;
     i++
 
