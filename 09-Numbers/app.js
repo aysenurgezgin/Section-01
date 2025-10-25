@@ -9,4 +9,7 @@ result=parseFloat(num.toFixed(2));
 result=num.toPrecision(5);
 
 result=Math.round(2.3);
+result=Math.round(2,5);
+result=Math.ceil(2,1);
+
 console.log(result);
